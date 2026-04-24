@@ -1,3 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /downloads/
+Disallow: /prompts/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://vanec.vn/sitemap.xml

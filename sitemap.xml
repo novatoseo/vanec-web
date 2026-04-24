@@ -28,7 +28,7 @@
     <loc>https://vanec.vn/nosotros.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vanec.vn/contacto.html</loc>
@@ -52,7 +52,7 @@
     <loc>https://vanec.vn/cookies.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.2</priority>
   </url>
   <url>
     <loc>https://vanec.vn/english-for-hotel-staff-in-vietnam.html</loc>
@@ -148,7 +148,7 @@
     <loc>https://vanec.vn/privacidad.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.2</priority>
   </url>
   <url>
     <loc>https://vanec.vn/restaurant-order-taking-english-dialogue.html</loc>
@@ -160,6 +160,6 @@
     <loc>https://vanec.vn/terminos.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.2</priority>
   </url>
 </urlset>

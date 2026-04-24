@@ -1135,3 +1135,80 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   margin: 14px 0 18px;
 }
+
+/* ============================================================
+   VANEC — Audit optimizations: UX polish, CRO, visual rhythm
+   ============================================================ */
+
+/* Improve hero visual impact */
+.page-hero .section-title {
+  text-wrap: balance;
+}
+
+/* Smooth focus transitions for accessibility */
+a, button, input, select, textarea {
+  transition: outline-offset 0.15s ease;
+}
+
+/* Better tap targets on mobile */
+@media (max-width: 767px) {
+  .nav__mobile a {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .option-btn {
+    min-height: 48px;
+  }
+  
+  .card-grid a.card {
+    padding: 24px 20px;
+  }
+}
+
+/* Subtle hover glow for resource cards */
+.card-grid a.card:hover h3 {
+  color: var(--gold-light);
+  transition: color var(--transition);
+}
+
+/* Better visual separation for article sidebar */
+@media (min-width: 900px) {
+  .sidebar-stack > .card + .card {
+    margin-top: 0;
+  }
+}
+
+/* Trust row improvements */
+.trust-row span::before {
+  content: '✓';
+  color: var(--success);
+  font-size: 0.7em;
+  font-weight: 800;
+}
+
+/* Improve lead magnet visual weight */
+.lead-magnet .badge {
+  animation: pulse-badge 3s ease-in-out infinite;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212,175,55,0.25); }
+  50% { box-shadow: 0 0 0 8px rgba(212,175,55,0); }
+}
+
+/* Better print styles */
+@media print {
+  .nav, .floating-cta, .exit-popup, .nav__mobile { display: none !important; }
+  .nav-offset { padding-top: 0 !important; }
+  body { background: #fff; color: #000; }
+  .card { border: 1px solid #ccc; }
+  a { color: #0A192F; }
+  .footer { page-break-before: always; }
+}
+
+/* Scroll margin for anchor links under fixed nav */
+[id] {
+  scroll-margin-top: 80px;
+}
