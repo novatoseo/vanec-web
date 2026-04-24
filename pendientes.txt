@@ -1,26 +1,115 @@
-# Pendientes VANEC
+PENDIENTES DETECTADOS
+====================
 
-Datos que no deben inventarse y requieren validación del cliente:
-
-- // PENDIENTE: URL real del webhook/CRM para captación de leads.
-- <!-- PENDIENTE: URL definitiva de imagen Open Graph -->
-- <!-- PENDIENTE: URL real del webhook/CRM para captación de leads -->
-- <!-- PENDIENTE: años reales de experiencia en hotelería -->
-- <!-- PENDIENTE: credenciales reales del profesor -->
-- <!-- PENDIENTE: código fiscal / RUC vietnamita -->
-- <!-- PENDIENTE: código fiscal / registro mercantil vietnamita -->
-- <!-- PENDIENTE: dirección fiscal -->
-- <!-- PENDIENTE: dirección fiscal completa de VANEC -->
-- <!-- PENDIENTE: dirección física/fiscal de VANEC -->
-- <!-- PENDIENTE: email corporativo de VANEC -->
-- <!-- PENDIENTE: email corporativo de privacidad -->
-- <!-- PENDIENTE: email corporativo para consultas de privacidad/cookies -->
-- <!-- PENDIENTE: email específico para privacidad y datos personales -->
-- <!-- PENDIENTE: email legal corporativo -->
-- <!-- PENDIENTE: historia real de VANEC, año de fundación y misión validada por el cliente -->
-- <!-- PENDIENTE: menciones en medios, colaboraciones, certificaciones o reconocimientos reales -->
-- <!-- PENDIENTE: número real de alumnos formados -->
-- <!-- PENDIENTE: porcentaje real de mejora salarial o empleabilidad -->
-- <!-- PENDIENTE: razón social completa -->
-- <!-- PENDIENTE: razón social completa de VANEC -->
-- <!-- PENDIENTE: testimonios reales con nombre completo, hotel y autorización -->
+resumen-cambios.md: <!-- PENDIENTE: -->
+pendientes.txt: // PENDIENTE: URL real del webhook/CRM para captación de leads.
+pendientes.txt: <!-- PENDIENTE: URL definitiva de imagen Open Graph -->
+pendientes.txt: <!-- PENDIENTE: URL real del webhook/CRM para captación de leads -->
+pendientes.txt: <!-- PENDIENTE: años reales de experiencia en hotelería -->
+pendientes.txt: <!-- PENDIENTE: credenciales reales del profesor -->
+pendientes.txt: <!-- PENDIENTE: código fiscal / RUC vietnamita -->
+pendientes.txt: <!-- PENDIENTE: código fiscal / registro mercantil vietnamita -->
+pendientes.txt: <!-- PENDIENTE: dirección fiscal -->
+pendientes.txt: <!-- PENDIENTE: dirección fiscal completa de VANEC -->
+pendientes.txt: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+pendientes.txt: <!-- PENDIENTE: email corporativo de VANEC -->
+pendientes.txt: <!-- PENDIENTE: email corporativo de privacidad -->
+pendientes.txt: <!-- PENDIENTE: email corporativo para consultas de privacidad/cookies -->
+pendientes.txt: <!-- PENDIENTE: email específico para privacidad y datos personales -->
+pendientes.txt: <!-- PENDIENTE: email legal corporativo -->
+pendientes.txt: <!-- PENDIENTE: historia real de VANEC, año de fundación y misión validada por el cliente -->
+pendientes.txt: <!-- PENDIENTE: menciones en medios, colaboraciones, certificaciones o reconocimientos reales -->
+pendientes.txt: <!-- PENDIENTE: número real de alumnos formados -->
+pendientes.txt: <!-- PENDIENTE: porcentaje real de mejora salarial o empleabilidad -->
+pendientes.txt: <!-- PENDIENTE: razón social completa -->
+pendientes.txt: <!-- PENDIENTE: razón social completa de VANEC -->
+pendientes.txt: <!-- PENDIENTE: testimonios reales con nombre completo, hotel y autorización -->
+cursos.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+cursos.html: <!-- PENDIENTE: email corporativo de VANEC -->
+cursos.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+ejercicios.html: <!-- PENDIENTE: email corporativo de VANEC -->
+ejercicios.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-check-in-english-dialogue.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-check-in-english-dialogue.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-check-out-conversation-in-english.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-check-out-conversation-in-english.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-reservation-english-dialogue.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-reservation-english-dialogue.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-complaint-handling-english-phrases.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-complaint-handling-english-phrases.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+how-to-upsell-in-a-hotel-in-english.html: <!-- PENDIENTE: email corporativo de VANEC -->
+how-to-upsell-in-a-hotel-in-english.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+restaurant-order-taking-english-dialogue.html: <!-- PENDIENTE: email corporativo de VANEC -->
+restaurant-order-taking-english-dialogue.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+housekeeping-english-conversation-with-guest.html: <!-- PENDIENTE: email corporativo de VANEC -->
+housekeeping-english-conversation-with-guest.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-phone-conversation-in-english.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-phone-conversation-in-english.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+concierge-english-phrases-for-directions.html: <!-- PENDIENTE: email corporativo de VANEC -->
+concierge-english-phrases-for-directions.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+english-phrases-for-hotel-emergencies.html: <!-- PENDIENTE: email corporativo de VANEC -->
+english-phrases-for-hotel-emergencies.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+nosotros.html: <!-- PENDIENTE: historia real de VANEC, año de fundación y misión validada por el cliente -->
+nosotros.html: <!-- PENDIENTE: años reales de experiencia en hotelería -->
+nosotros.html: <!-- PENDIENTE: credenciales reales del profesor -->
+nosotros.html: <!-- PENDIENTE: años reales de experiencia en hotelería -->
+nosotros.html: <!-- PENDIENTE: credenciales reales del profesor -->
+nosotros.html: <!-- PENDIENTE: número real de alumnos formados -->
+nosotros.html: <!-- PENDIENTE: porcentaje real de mejora salarial o empleabilidad -->
+nosotros.html: <!-- PENDIENTE: testimonios reales con nombre completo, hotel y autorización -->
+nosotros.html: <!-- PENDIENTE: menciones en medios, colaboraciones, certificaciones o reconocimientos reales -->
+nosotros.html: <!-- PENDIENTE: email corporativo de VANEC -->
+nosotros.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+terminos.html: <!-- PENDIENTE: razón social completa -->
+terminos.html: <!-- PENDIENTE: dirección fiscal -->
+terminos.html: <!-- PENDIENTE: código fiscal / RUC vietnamita -->
+terminos.html: <!-- PENDIENTE: email legal corporativo -->
+terminos.html: <!-- PENDIENTE: email corporativo de VANEC -->
+terminos.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+cookies.html: <!-- PENDIENTE: email corporativo para consultas de privacidad/cookies -->
+cookies.html: <!-- PENDIENTE: email corporativo de VANEC -->
+cookies.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+contacto.html: <!-- PENDIENTE: URL real del webhook/CRM para captación de leads -->
+contacto.html: <!-- PENDIENTE: email corporativo de VANEC -->
+contacto.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+contacto.html: <!-- PENDIENTE: email corporativo de VANEC -->
+contacto.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+privacidad.html: <!-- PENDIENTE: razón social completa de VANEC -->
+privacidad.html: <!-- PENDIENTE: email corporativo de privacidad -->
+privacidad.html: <!-- PENDIENTE: dirección fiscal completa de VANEC -->
+privacidad.html: <!-- PENDIENTE: código fiscal / registro mercantil vietnamita -->
+privacidad.html: <!-- PENDIENTE: email específico para privacidad y datos personales -->
+privacidad.html: <!-- PENDIENTE: email corporativo de VANEC -->
+privacidad.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+index.html: <!-- PENDIENTE: URL real del webhook/CRM para captación de leads -->
+index.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+index.html: <!-- PENDIENTE: email corporativo de VANEC -->
+index.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+recursos.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+recursos.html: <!-- PENDIENTE: email corporativo de VANEC -->
+recursos.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-receptionist-english-phrases.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+hotel-receptionist-english-phrases.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-receptionist-english-phrases.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+english-for-restaurant-staff-in-hotels.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+english-for-restaurant-staff-in-hotels.html: <!-- PENDIENTE: email corporativo de VANEC -->
+english-for-restaurant-staff-in-hotels.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-english-for-housekeeping-staff.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+hotel-english-for-housekeeping-staff.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-english-for-housekeeping-staff.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-guest-complaint-phrases.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+hotel-guest-complaint-phrases.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-guest-complaint-phrases.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+concierge-english-phrases.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+concierge-english-phrases.html: <!-- PENDIENTE: email corporativo de VANEC -->
+concierge-english-phrases.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-job-interview-questions-english.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+hotel-job-interview-questions-english.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-job-interview-questions-english.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+hotel-english-vocabulary-list.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+hotel-english-vocabulary-list.html: <!-- PENDIENTE: email corporativo de VANEC -->
+hotel-english-vocabulary-list.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: URL real del webhook/CRM para descarga del lead magnet -->
+english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: email corporativo de VANEC -->
+english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
+js/main.js: // PENDIENTE: URL real del webhook/CRM para captación de leads.

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://vanec.vn/sitemap.xml
