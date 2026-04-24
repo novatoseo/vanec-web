@@ -165,3 +165,50 @@ function initTypewriter(elementId, phrases, typeSpeed = 80, eraseSpeed = 40, pau
   };
   setTimeout(tick, 1000);
 }
+
+
+/* ---- EXERCISE INTERACTIONS ---- */
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-correct]').forEach(button => {
+    button.addEventListener('click', () => {
+      const group = button.closest('.exercise-question');
+      group?.querySelectorAll('[data-correct]').forEach(btn => {
+        btn.classList.remove('is-correct', 'is-wrong');
+        btn.setAttribute('aria-pressed', 'false');
+      });
+      const ok = button.dataset.correct === 'true';
+      button.classList.add(ok ? 'is-correct' : 'is-wrong');
+      button.setAttribute('aria-pressed', 'true');
+      const feedback = group?.querySelector('.feedback');
+      if (feedback) feedback.textContent = ok ? 'Correct. This is the most natural hotel English option.' : 'Try again. Think about tone, clarity and guest service.';
+    });
+  });
+
+  document.querySelectorAll('[data-check-blanks]').forEach(button => {
+    button.addEventListener('click', () => {
+      const box = button.closest('.exercise-box');
+      let total = 0, score = 0;
+      box?.querySelectorAll('[data-answer]').forEach(input => {
+        total++;
+        const expected = (input.dataset.answer || '').toLowerCase().trim();
+        const accepted = expected.split('|').map(x => x.trim());
+        const given = (input.value || '').toLowerCase().trim();
+        const ok = accepted.includes(given);
+        input.style.borderColor = ok ? 'var(--success)' : 'var(--danger)';
+        if (ok) score++;
+      });
+      const result = box?.querySelector('.blank-result');
+      if (result) result.textContent = `Score: ${score}/${total}. Review the model answer below to improve rhythm and politeness.`;
+    });
+  });
+
+  document.querySelectorAll('[data-toggle-answer]').forEach(button => {
+    button.addEventListener('click', () => {
+      const target = document.getElementById(button.getAttribute('aria-controls'));
+      if (!target) return;
+      const open = target.classList.toggle('open');
+      button.setAttribute('aria-expanded', String(open));
+      button.textContent = open ? 'Ẩn đáp án' : 'Xem đáp án mẫu';
+    });
+  });
+});
