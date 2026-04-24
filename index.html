@@ -113,7 +113,8 @@ body{margin:0;background:#0A192F;color:#fff;font-family:Lexend,Arial,sans-serif}
         <span class="badge badge-gold">Test miễn phí</span>
         <h2 style="font-size:1.35rem; margin:18px 0 10px;">Nhận lộ trình học theo vị trí của bạn</h2>
         <p style="color:var(--gray-400); margin-bottom:20px;">Điền thông tin cơ bản. VANEC sẽ liên hệ qua Zalo để tư vấn chương trình phù hợp.</p>
-        <form data-form="home" style="display:grid; gap:12px;">
+        <form data-form="home" data-webhook="" style="display:grid; gap:12px;">
+          <!-- PENDIENTE: URL real del webhook/CRM para captación de leads -->
           <label class="sr-only" for="home-name">Họ và tên</label>
           <input id="home-name" class="form-input" type="text" name="name" placeholder="Họ và tên" required autocomplete="name">
           <label class="sr-only" for="home-phone">Số điện thoại hoặc Zalo</label>
@@ -124,6 +125,7 @@ body{margin:0;background:#0A192F;color:#fff;font-family:Lexend,Arial,sans-serif}
             <option>Front Office</option><option>Food & Beverage</option><option>Housekeeping</option><option>Concierge</option><option>Quản lý</option>
           </select>
           <button type="submit" class="btn btn-primary btn-full">Gửi thông tin</button>
+          <p class="form-help">Dữ liệu chỉ được dùng để liên hệ tư vấn khóa học và sắp xếp bài test miễn phí.</p>
         </form>
       </aside>
     </div>

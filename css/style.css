@@ -976,3 +976,73 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__links { gap: 22px; }
 @media (min-width: 900px) { .nav__links { gap: 28px; } }
+
+/* ============================================================
+   VANEC — Final UX/CRO/accessibility refinements
+   ============================================================ */
+.form-help {
+  color: var(--gray-600);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin-top: 4px;
+}
+
+.trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+  color: var(--gray-400);
+  font-size: 0.82rem;
+}
+
+.trust-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.035);
+}
+
+@media (max-width: 767px) {
+  .floating-cta {
+    bottom: 14px;
+    right: 14px;
+    z-index: 850;
+  }
+
+  .floating-btn {
+    padding: 11px 14px;
+    font-size: 0.78rem;
+    max-width: calc(100vw - 28px);
+  }
+
+  .exit-popup {
+    padding: 16px;
+    align-items: flex-end;
+  }
+
+  .exit-popup__content {
+    max-width: 100%;
+    padding: 32px 22px 28px;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

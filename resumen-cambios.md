@@ -95,3 +95,30 @@
 - `terminos.html`: `email legal corporativo`
 - `terminos.html`: `email corporativo de VANEC`
 - `terminos.html`: `dirección física/fiscal de VANEC`
+
+## Actualización profesional avanzada aplicada
+
+### SEO técnico
+- Canonical de la home consolidado en `https://vanec.vn/` para evitar duplicidad entre `/` e `/index.html`.
+- BreadcrumbList corregido para que la home apunte a `/` y no a `/index.html`.
+- Sitemap y robots mantienen todas las páginas indexables y apuntan a `https://vanec.vn/sitemap.xml`.
+- Se mantienen `hreflang="vi-VN"` y `x-default`; no se añade versión inglesa porque no existe una arquitectura `/en/` completa y equivalente.
+- Se conserva un único H1 por página y se refuerza el enlazado contextual hacia cursos, ejercicios, contacto y Zalo.
+
+### UX/CRO
+- Pop-up convertido en intersticial no invasivo: desktop solo exit-intent tras 30 segundos; móvil solo tras 45 segundos y 70% de scroll.
+- Pop-up bloqueado en `contacto.html`, `privacidad.html`, `terminos.html` y `cookies.html`.
+- Se evita mostrar pop-up cuando el usuario está escribiendo en un formulario.
+- Se añade frecuencia de no repetición de 7 días si el usuario lo cierra.
+- Formularios preparados para webhook mediante `data-webhook=""`, sin inventar endpoint.
+- Añadido microcopy de privacidad/confianza bajo formularios.
+- Objetivo CRO unificado: prueba de nivel gratuita. Zalo queda como canal directo secundario.
+
+### Rendimiento y accesibilidad
+- JavaScript reescrito para no fallar si una página no contiene elementos opcionales.
+- Añadido soporte `prefers-reduced-motion`.
+- Mejorado comportamiento móvil del floating CTA para no tapar contenido crítico.
+- Botones y estados de ejercicios mantienen `aria-pressed`, `aria-expanded` y feedback accesible.
+
+### Legal
+- `privacidad.html` actualizada para advertir que en 2026 debe revisarse frente al marco vigente de Vietnam, incluyendo Law No. 91/2025/QH15 y Decree 356/2025/ND-CP, sin inventar datos legales.
