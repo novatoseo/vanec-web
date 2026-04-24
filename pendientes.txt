@@ -113,3 +113,7 @@ english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: URL real del webhook/CR
 english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: email corporativo de VANEC -->
 english-for-hotel-staff-in-vietnam.html: <!-- PENDIENTE: dirección física/fiscal de VANEC -->
 js/main.js: // PENDIENTE: URL real del webhook/CRM para captación de leads.
+
+Actualización opción 2 lead magnet:
+- <!-- PENDIENTE: URL real del webhook/CRM para guardar los leads del lead magnet -->
+- <!-- PENDIENTE: decidir si se añade campo email si VANEC quiere enviar el recurso también por correo -->

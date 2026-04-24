@@ -45,3 +45,37 @@
 ## Pendientes
 
 Ver `pendientes.txt`.
+
+## Actualización opción 2 - Lead magnet con descarga directa
+
+- Se ha añadido `gracias.html` como página de entrega del lead magnet tras enviar el formulario.
+- Los formularios de lead magnet incorporan `data-redirect="gracias.html"` para redirigir al usuario a la descarga.
+- `js/main.js` ahora soporta `data-redirect`: primero intenta enviar el lead al webhook si existe y después redirige a la página de gracias.
+- Si `data-webhook` está vacío, el sitio sigue funcionando en hosting estático con fallback local, pero la captación real queda pendiente hasta conectar Make/CRM.
+- Se ha creado `/downloads/50-cau-tieng-anh-khach-san.pdf` como PDF final aportado por el cliente para evitar enlaces rotos.
+- Se ha creado `/downloads/hotel-english-audio-practice.mp3` como audio final aportado por el cliente para que el flujo de descarga esté completo.
+- Se ha creado `/downloads/audio-practice-script.txt` con el guion completo para recrear el audio en ElevenLabs.
+- Se han añadido prompts en `/prompts/` para generar el PDF final con Manus y el audio final con ElevenLabs.
+- El pop-up queda desactivado también en `gracias.html` para no interrumpir la descarga.
+- `gracias.html` lleva `noindex, follow` y no se incluye en sitemap porque es una página posterior a conversión.
+
+### Archivos nuevos añadidos
+
+- `gracias.html`
+- `downloads/50-cau-tieng-anh-khach-san.pdf`
+- `downloads/hotel-english-audio-practice.mp3`
+- `downloads/audio-practice-script.txt`
+- `prompts/prompt-manus-lead-magnet.md`
+- `prompts/prompt-elevenlabs-audio.md`
+- `prompts/instrucciones-opcion-2-descarga.md`
+
+### Recomendación antes de publicación final
+
+- Añadir URL real de Make/CRM en `data-webhook=""` para guardar los leads de forma real.
+
+## Actualización v5 - Lead magnet final integrado
+
+- Se ha sustituido el PDF anterior por el archivo final aportado por el cliente: `downloads/50-cau-tieng-anh-khach-san.pdf`.
+- Se ha sustituido el audio anterior por el MP3 final aportado por el cliente: `downloads/hotel-english-audio-practice.mp3`.
+- La página `gracias.html` mantiene los enlaces de descarga y el reproductor de audio funcionando con los archivos finales.
+- Los prompts guardados en `/prompts/` se han actualizado para reforzar que el PDF sea principalmente en vietnamita y que el audio use instrucciones en vietnamita con inglés claro y acento vietnamita suave.

@@ -70,7 +70,7 @@
     const popup = document.getElementById('exit-popup');
     if (popup) {
       const currentPage = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
-      const blockedPages = ['contacto.html', 'privacidad.html', 'terminos.html', 'cookies.html'];
+      const blockedPages = ['contacto.html', 'privacidad.html', 'terminos.html', 'cookies.html', 'gracias.html'];
       const isBlockedPage = blockedPages.includes(currentPage);
       const isMobile = window.matchMedia('(max-width: 767px)').matches;
       const storageKey = 'vanec_exit_popup_closed_until';
@@ -173,6 +173,7 @@
         const button = form.querySelector('button[type="submit"]');
         const originalText = button?.textContent || '';
         const webhook = form.dataset.webhook || '';
+        const redirectUrl = form.dataset.redirect || '';
 
         if (button) {
           button.disabled = true;
@@ -193,6 +194,16 @@
           } else {
             // PENDIENTE: URL real del webhook/CRM para captación de leads.
             await new Promise((resolve) => window.setTimeout(resolve, 700));
+          }
+
+          if (redirectUrl) {
+            try {
+              sessionStorage.setItem('vanec_last_lead', JSON.stringify(payload));
+            } catch (storageError) {
+              // Session storage may be unavailable in some private browsing modes.
+            }
+            window.location.href = redirectUrl;
+            return;
           }
 
           form.innerHTML = `
